@@ -1,0 +1,17 @@
+SMAP
+addsolution_jsp.java
+JSP
+*S JSP
+*F
++ 0 addsolution.jsp
+addsolution.jsp
++ 1 footer.jsp
+footer.jsp
+*L
+1:60
+5,62:61
+67,15:124
+81,88:139
+1#1,87:227
+168#0,4:313
+*E

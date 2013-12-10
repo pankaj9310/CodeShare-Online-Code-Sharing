@@ -1,0 +1,16 @@
+SMAP
+userchangepass_jsp.java
+JSP
+*S JSP
+*F
++ 0 userchangepass.jsp
+userchangepass.jsp
++ 1 footer.jsp
+footer.jsp
+*L
+5,45:62
+51,20:108
+70,2:128
+1#1,82:130
+72#0,4:211
+*E

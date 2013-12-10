@@ -1,0 +1,15 @@
+SMAP
+Verification_jsp.java
+JSP
+*S JSP
+*F
++ 0 Verification.jsp
+Verification.jsp
++ 1 footer.jsp
+footer.jsp
+*L
+5,12:62
+16,62:74
+1#1,82:136
+77#0,6:217
+*E
