@@ -38,8 +38,13 @@ public class profileupdate extends HttpServlet {
            Config c = new Config();
            Connection con = c.getcon();
            String userid=(String)session.getAttribute("userid");
-           MultipartRequest m = new MultipartRequest(request,"codeshare.in/web/uploadimg/");
+           out.println(userid);
+           String path = getServletContext().getRealPath("/");
+           path = path +"uploadimg";
+           MultipartRequest m = new MultipartRequest(request,path);
+           out.println("hi");
            String pic = m.getFilesystemName("pic");
+           out.println(pic);
            if(pic=="" || pic==null)
                pic="default.png";
 
@@ -69,7 +74,7 @@ public class profileupdate extends HttpServlet {
             Statement st = con.createStatement();
             int result = st.executeUpdate(q);
         
-        //      out.println(result);
+           out.println(result);
 
         if(result==1)
         {
